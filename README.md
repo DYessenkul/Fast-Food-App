@@ -7,7 +7,7 @@ Fast food app where you can order your favorite dishes from the best restaurants
 - Beautiful design
 - CRUD operations
 - Authorization
-
+- Singleton pattern
 <img width="318" alt="Снимок экрана 2023-04-26 в 17 39 40" src="https://user-images.githubusercontent.com/121435424/234565036-623f554b-999a-413f-9079-e6d00cc15db1.png"><img width="318" alt="Снимок экрана 2023-04-26 в 17 39 50" src="https://user-images.githubusercontent.com/121435424/234565054-bd91b1db-7470-415a-9ce4-f3b17b0641bd.png">
 <img width="325" alt="Снимок экрана 2023-04-26 в 17 39 58" src="https://user-images.githubusercontent.com/121435424/234565065-b3dcb23f-aa0a-4c98-b40e-221c14f2c8d3.png">
 <img width="320" alt="Снимок экрана 2023-04-26 в 17 40 09" src="https://user-images.githubusercontent.com/121435424/234565117-80e50f2c-c317-49fd-932f-20842a6bcb94.png">
