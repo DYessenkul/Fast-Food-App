@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F679E6CBC148E50B978B0FF /* Pods_Fast_Food_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12BB58FED95089A02118902 /* Pods_Fast_Food_App.framework */; };
+		7824B37729F8206600B3F3F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824B37629F8206600B3F3F0 /* SearchViewController.swift */; };
+		7824B37929F822C100B3F3F0 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824B37829F822C100B3F3F0 /* SearchTableViewCell.swift */; };
+		782929B229F79A10005AEE46 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782929B129F79A10005AEE46 /* TabBarViewController.swift */; };
+		782929B429F79B17005AEE46 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782929B329F79B17005AEE46 /* HomeTableViewCell.swift */; };
+		782929B629F79F42005AEE46 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782929B529F79F42005AEE46 /* Restaurants.swift */; };
+		7845FC2029DD7B13000E07FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845FC1F29DD7B13000E07FE /* AppDelegate.swift */; };
+		7845FC2229DD7B13000E07FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845FC2129DD7B13000E07FE /* SceneDelegate.swift */; };
+		7845FC2729DD7B13000E07FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7845FC2529DD7B13000E07FE /* Main.storyboard */; };
+		7845FC2929DD7B14000E07FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7845FC2829DD7B14000E07FE /* Assets.xcassets */; };
+		7845FC2C29DD7B14000E07FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7845FC2A29DD7B14000E07FE /* LaunchScreen.storyboard */; };
+		7848A4E429EE97B3006FC68F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848A4E329EE97B3006FC68F /* LoginViewController.swift */; };
+		786F568329EE79B30001F9E3 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = 786F568129EE79B30001F9E3 /* app.json */; };
+		786F568529EE79F70001F9E3 /* fast-food.json in Resources */ = {isa = PBXBuildFile; fileRef = 786F568429EE79F70001F9E3 /* fast-food.json */; };
+		786F568929EE7C9E0001F9E3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F568829EE7C9E0001F9E3 /* UIViewExtension.swift */; };
+		786F568B29EE7D580001F9E3 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F568A29EE7D580001F9E3 /* OnboardingSlide.swift */; };
+		786F568D29EE803A0001F9E3 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F568C29EE803A0001F9E3 /* OnboardingCollectionViewCell.swift */; };
+		786F569129EE8CD00001F9E3 /* delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = 786F569029EE8CD00001F9E3 /* delivery.json */; };
+		788D25EC29F8350600E11B84 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D25EB29F8350600E11B84 /* BasketViewController.swift */; };
+		788D25EE29F8356300E11B84 /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D25ED29F8356300E11B84 /* BasketTableViewCell.swift */; };
+		7895C51429F7D52A00C8C50D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895C51329F7D52A00C8C50D /* MenuViewController.swift */; };
+		7895C51629F7D58D00C8C50D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895C51529F7D58D00C8C50D /* MenuTableViewCell.swift */; };
+		78C4013A29EEB2CC00463DE8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4013929EEB2CC00463DE8 /* SignUpViewController.swift */; };
+		78C4013C29EEBAAC00463DE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4013B29EEBAAB00463DE8 /* User.swift */; };
+		78C4013E29EEBF5900463DE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4013D29EEBF5900463DE8 /* HomeViewController.swift */; };
+		78F2E29329EE6D3000E7CCCD /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2E29229EE6D3000E7CCCD /* OnboardingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EC2B2707780BB4D620C9F91 /* Pods-Fast Food App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Food App.debug.xcconfig"; path = "Target Support Files/Pods-Fast Food App/Pods-Fast Food App.debug.xcconfig"; sourceTree = "<group>"; };
+		7824B37629F8206600B3F3F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7824B37829F822C100B3F3F0 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		782929B129F79A10005AEE46 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		782929B329F79B17005AEE46 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		782929B529F79F42005AEE46 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		7845FC1C29DD7B13000E07FE /* Fast Food App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Food App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7845FC1F29DD7B13000E07FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7845FC2129DD7B13000E07FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7845FC2629DD7B13000E07FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7845FC2829DD7B14000E07FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7845FC2B29DD7B14000E07FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7845FC2D29DD7B14000E07FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7848A4E329EE97B3006FC68F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		786F568129EE79B30001F9E3 /* app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		786F568429EE79F70001F9E3 /* fast-food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "fast-food.json"; sourceTree = "<group>"; };
+		786F568829EE7C9E0001F9E3 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		786F568A29EE7D580001F9E3 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		786F568C29EE803A0001F9E3 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		786F569029EE8CD00001F9E3 /* delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery.json; sourceTree = "<group>"; };
+		788D25EB29F8350600E11B84 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		788D25ED29F8356300E11B84 /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		7895C51329F7D52A00C8C50D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7895C51529F7D58D00C8C50D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		78C4013929EEB2CC00463DE8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		78C4013B29EEBAAB00463DE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		78C4013D29EEBF5900463DE8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78F2E29229EE6D3000E7CCCD /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A43612B00D98190611FEA988 /* Pods-Fast Food App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Food App.release.xcconfig"; path = "Target Support Files/Pods-Fast Food App/Pods-Fast Food App.release.xcconfig"; sourceTree = "<group>"; };
+		B12BB58FED95089A02118902 /* Pods_Fast_Food_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Food_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7845FC1929DD7B13000E07FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F679E6CBC148E50B978B0FF /* Pods_Fast_Food_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7845FC1329DD7B13000E07FE = {
+			isa = PBXGroup;
+			children = (
+				7845FC1E29DD7B13000E07FE /* Fast Food App */,
+				7845FC1D29DD7B13000E07FE /* Products */,
+				7A0DF3B21BB0218A26A118CE /* Pods */,
+				85E7609F134D051EBD02EF45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7845FC1D29DD7B13000E07FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7845FC1C29DD7B13000E07FE /* Fast Food App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7845FC1E29DD7B13000E07FE /* Fast Food App */ = {
+			isa = PBXGroup;
+			children = (
+				786F568729EE7C820001F9E3 /* Extensions */,
+				786F568629EE7C6C0001F9E3 /* Lottie */,
+				78F2E28F29EE6D0100E7CCCD /* Views */,
+				78F2E28E29EE6CEF00E7CCCD /* Model */,
+				7845FC1F29DD7B13000E07FE /* AppDelegate.swift */,
+				7845FC2129DD7B13000E07FE /* SceneDelegate.swift */,
+				7845FC2529DD7B13000E07FE /* Main.storyboard */,
+				7845FC2829DD7B14000E07FE /* Assets.xcassets */,
+				7845FC2A29DD7B14000E07FE /* LaunchScreen.storyboard */,
+				7845FC2D29DD7B14000E07FE /* Info.plist */,
+			);
+			path = "Fast Food App";
+			sourceTree = "<group>";
+		};
+		786F568629EE7C6C0001F9E3 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				786F569029EE8CD00001F9E3 /* delivery.json */,
+				786F568429EE79F70001F9E3 /* fast-food.json */,
+				786F568129EE79B30001F9E3 /* app.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		786F568729EE7C820001F9E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				786F568829EE7C9E0001F9E3 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7883E7BB29F942DF00F77B8D /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				78C4013929EEB2CC00463DE8 /* SignUpViewController.swift */,
+				7848A4E329EE97B3006FC68F /* LoginViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		7895C51729F7D70700C8C50D /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				782929B329F79B17005AEE46 /* HomeTableViewCell.swift */,
+				7895C51529F7D58D00C8C50D /* MenuTableViewCell.swift */,
+				7824B37829F822C100B3F3F0 /* SearchTableViewCell.swift */,
+				788D25ED29F8356300E11B84 /* BasketTableViewCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		78F2E28E29EE6CEF00E7CCCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				786F568A29EE7D580001F9E3 /* OnboardingSlide.swift */,
+				78C4013B29EEBAAB00463DE8 /* User.swift */,
+				782929B529F79F42005AEE46 /* Restaurants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78F2E28F29EE6D0100E7CCCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7883E7BB29F942DF00F77B8D /* Authorization */,
+				7895C51729F7D70700C8C50D /* Table Cell */,
+				78F2E29129EE6D1500E7CCCD /* Onboarding */,
+				78C4013D29EEBF5900463DE8 /* HomeViewController.swift */,
+				782929B129F79A10005AEE46 /* TabBarViewController.swift */,
+				7895C51329F7D52A00C8C50D /* MenuViewController.swift */,
+				7824B37629F8206600B3F3F0 /* SearchViewController.swift */,
+				788D25EB29F8350600E11B84 /* BasketViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78F2E29129EE6D1500E7CCCD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				78F2E29229EE6D3000E7CCCD /* OnboardingViewController.swift */,
+				786F568C29EE803A0001F9E3 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7A0DF3B21BB0218A26A118CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EC2B2707780BB4D620C9F91 /* Pods-Fast Food App.debug.xcconfig */,
+				A43612B00D98190611FEA988 /* Pods-Fast Food App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85E7609F134D051EBD02EF45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B12BB58FED95089A02118902 /* Pods_Fast_Food_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7845FC1B29DD7B13000E07FE /* Fast Food App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7845FC3029DD7B14000E07FE /* Build configuration list for PBXNativeTarget "Fast Food App" */;
+			buildPhases = (
+				F2B7049141F57A0244C7E871 /* [CP] Check Pods Manifest.lock */,
+				7845FC1829DD7B13000E07FE /* Sources */,
+				7845FC1929DD7B13000E07FE /* Frameworks */,
+				7845FC1A29DD7B13000E07FE /* Resources */,
+				988EDE757EFF11BCBD9D2B92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fast Food App";
+			productName = "Fast Food App";
+			productReference = 7845FC1C29DD7B13000E07FE /* Fast Food App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7845FC1429DD7B13000E07FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7845FC1B29DD7B13000E07FE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7845FC1729DD7B13000E07FE /* Build configuration list for PBXProject "Fast Food App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7845FC1329DD7B13000E07FE;
+			productRefGroup = 7845FC1D29DD7B13000E07FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7845FC1B29DD7B13000E07FE /* Fast Food App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7845FC1A29DD7B13000E07FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7845FC2C29DD7B14000E07FE /* LaunchScreen.storyboard in Resources */,
+				7845FC2929DD7B14000E07FE /* Assets.xcassets in Resources */,
+				786F568529EE79F70001F9E3 /* fast-food.json in Resources */,
+				7845FC2729DD7B13000E07FE /* Main.storyboard in Resources */,
+				786F568329EE79B30001F9E3 /* app.json in Resources */,
+				786F569129EE8CD00001F9E3 /* delivery.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		988EDE757EFF11BCBD9D2B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast Food App/Pods-Fast Food App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast Food App/Pods-Fast Food App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fast Food App/Pods-Fast Food App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B7049141F57A0244C7E871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fast Food App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7845FC1829DD7B13000E07FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D25EC29F8350600E11B84 /* BasketViewController.swift in Sources */,
+				7848A4E429EE97B3006FC68F /* LoginViewController.swift in Sources */,
+				786F568B29EE7D580001F9E3 /* OnboardingSlide.swift in Sources */,
+				782929B629F79F42005AEE46 /* Restaurants.swift in Sources */,
+				7895C51429F7D52A00C8C50D /* MenuViewController.swift in Sources */,
+				782929B229F79A10005AEE46 /* TabBarViewController.swift in Sources */,
+				78C4013A29EEB2CC00463DE8 /* SignUpViewController.swift in Sources */,
+				7845FC2029DD7B13000E07FE /* AppDelegate.swift in Sources */,
+				788D25EE29F8356300E11B84 /* BasketTableViewCell.swift in Sources */,
+				7845FC2229DD7B13000E07FE /* SceneDelegate.swift in Sources */,
+				782929B429F79B17005AEE46 /* HomeTableViewCell.swift in Sources */,
+				78C4013E29EEBF5900463DE8 /* HomeViewController.swift in Sources */,
+				7824B37729F8206600B3F3F0 /* SearchViewController.swift in Sources */,
+				7824B37929F822C100B3F3F0 /* SearchTableViewCell.swift in Sources */,
+				78C4013C29EEBAAC00463DE8 /* User.swift in Sources */,
+				786F568929EE7C9E0001F9E3 /* UIViewExtension.swift in Sources */,
+				78F2E29329EE6D3000E7CCCD /* OnboardingViewController.swift in Sources */,
+				786F568D29EE803A0001F9E3 /* OnboardingCollectionViewCell.swift in Sources */,
+				7895C51629F7D58D00C8C50D /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7845FC2529DD7B13000E07FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7845FC2629DD7B13000E07FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7845FC2A29DD7B14000E07FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7845FC2B29DD7B14000E07FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7845FC2E29DD7B14000E07FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7845FC2F29DD7B14000E07FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7845FC3129DD7B14000E07FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC2B2707780BB4D620C9F91 /* Pods-Fast Food App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29F8588F92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast Food App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darkhan.Fast-Food-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7845FC3229DD7B14000E07FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43612B00D98190611FEA988 /* Pods-Fast Food App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29F8588F92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast Food App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darkhan.Fast-Food-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7845FC1729DD7B13000E07FE /* Build configuration list for PBXProject "Fast Food App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7845FC2E29DD7B14000E07FE /* Debug */,
+				7845FC2F29DD7B14000E07FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7845FC3029DD7B14000E07FE /* Build configuration list for PBXNativeTarget "Fast Food App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7845FC3129DD7B14000E07FE /* Debug */,
+				7845FC3229DD7B14000E07FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7845FC1429DD7B13000E07FE /* Project object */;
+}
